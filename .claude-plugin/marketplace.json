@@ -1,0 +1,7 @@
+{
+  "name": "job-hunter",
+  "owner": { "name": "job-hunter maintainers" },
+  "plugins": [
+    { "name": "job-hunter", "source": "./", "description": "Automated, honest job applications with Claude Code + Claude in Chrome." }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "job-hunter",
+  "version": "0.1.0",
+  "description": "Find jobs, build tailored one-page CVs and cover letters from your own verified facts, and fill/submit applications in Chrome with Claude Code.",
+  "keywords": ["jobs", "cv", "resume", "cover-letter", "seek", "linkedin", "greenhouse"]
+}
