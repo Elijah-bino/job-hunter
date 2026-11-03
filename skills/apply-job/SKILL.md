@@ -15,6 +15,12 @@ current directory isn't one, ask once for its path. Helper scripts live next to 
    tools, numbers, dates or experience. If a fact isn't there, it isn't true.
 3. `PENDING.md`: open items and current focus. Logs: `JOBS.md`, `BLOCKED.md`, `CLAIMS.md`.
 
+## 0b. Token-efficient run mode (default)
+- One job at a time. Main session = thin orchestrator: find + dedupe (or spawn a `haiku` agent for it),
+  then spawn ONE fresh `sonnet` agent per job to do steps 2-6. Fresh agent context = same effect as `/clear`.
+- Agent returns only a 3-line report; the logs (JOBS/BLOCKED/CLAIMS/PENDING.md) carry all state to the
+  next job. Use `opus` only when an agent is stuck or the user asks. No parallel agents unless asked.
+
 ## 1. Find a listing
 - SEEK: `python -I $S/jobs.py seek "All Melbourne VIC" 1 "data analyst" "junior analyst"` (days = 1..7).
 - LinkedIn: `python -I $S/jobs.py li "Melbourne, Victoria, Australia" 24 data analyst graduate`.
