@@ -14,7 +14,7 @@ writes a one-page CV and cover letter built **only from facts you've given it**.
 form in your own Chrome browser, submits it (if you allow that) and keeps a log of every application and every skip.
 
 It never creates accounts, types passwords, solves CAPTCHAs or gives an untrue answer. When it reaches one of
-those, it stops and hands over to you.
+those, it stops and hands over to you. (If you wanna bypass that use cursor cli! but the gmail must be logged in on browser.)
 
 ## Requirements (optional reading)
 - [Claude Code](https://claude.com/claude-code) on a paid plan (job hunting uses a lot of tokens)
