@@ -1,0 +1,16 @@
+{
+  "full_name": "Alex Example",
+  "contact": {
+    "email": "alex.example@example.com",
+    "phone_intl": "+61 400 000 000",
+    "phone_display": "0400 000 000",
+    "links": ["https://github.com/your-github", "https://www.linkedin.com/in/your-linkedin"],
+    "location": "Melbourne, VIC"
+  },
+  "education": [
+    {"degree": "Master of Something", "institution": "Example University", "dates": "2025 - 2026", "note": "Distinction average."},
+    {"degree": "Bachelor of Something", "institution": "Another University", "dates": "2021 - 2024", "note": ""}
+  ],
+  "cv_no_bold": false,
+  "chrome_path": ""
+}

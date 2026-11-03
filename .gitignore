@@ -1,8 +1,8 @@
 # Never commit personal data. Your real workspace should live OUTSIDE this repo.
-workspace/
-my-workspace/
-applications/
-personal_docs/
+/workspace/
+/my-workspace/
+/applications/
+/personal_docs/
 *.pdf
 *.docx
 profile.json
